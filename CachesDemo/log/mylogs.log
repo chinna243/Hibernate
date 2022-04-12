@@ -1,0 +1,6 @@
+09-04-2022 16:48:00 DEBUG logging:112 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+09-04-2022 16:48:01 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+09-04-2022 16:48:01 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+09-04-2022 16:48:01 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+09-04-2022 16:48:02 INFO  Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+09-04-2022 16:48:02 DEBUG Environment:199 - HHH000206: hibernate.properties not found

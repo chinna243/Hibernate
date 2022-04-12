@@ -1,0 +1,23 @@
+2022-04-08 21:04:49,097 +0530 [main] DEBUG (LogicalConnectionManagedImpl.java:159) - Initiating JDBC connection release from afterTransaction
+  2022-04-08 21:04:49,102 +0530 [main] DEBUG (SessionImpl.java:982) - Initializing proxy: [com.createiq.demo.Employee#1002]
+  2022-04-08 21:04:49,118 +0530 [main] DEBUG (SqlStatementLogger.java:127) - 
+    select
+        employee0_.eid as eid1_0_0_,
+        employee0_.ename as ename2_0_0_,
+        employee0_.esal as esal3_0_0_ 
+    from
+        employee_tab employee0_ 
+    where
+        employee0_.eid=?
+  2022-04-08 21:04:49,773 +0530 [main] DEBUG (EntityReferenceInitializerImpl.java:131) - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+  2022-04-08 21:04:49,807 +0530 [main] DEBUG (TwoPhaseLoad.java:178) - Resolving attributes for [com.createiq.demo.Employee#1002]
+  2022-04-08 21:04:49,809 +0530 [main] DEBUG (TwoPhaseLoad.java:190) - Processing attribute `ename` : value = vamshi e
+  2022-04-08 21:04:49,809 +0530 [main] DEBUG (TwoPhaseLoad.java:221) - Attribute (`ename`)  - enhanced for lazy-loading? - false
+  2022-04-08 21:04:49,810 +0530 [main] DEBUG (TwoPhaseLoad.java:190) - Processing attribute `esal` : value = 70000.0
+  2022-04-08 21:04:49,810 +0530 [main] DEBUG (TwoPhaseLoad.java:221) - Attribute (`esal`)  - enhanced for lazy-loading? - false
+  2022-04-08 21:04:49,811 +0530 [main] DEBUG (TwoPhaseLoad.java:250) - Adding entity to second-level cache: [com.createiq.demo.Employee#1002]
+  2022-04-08 21:04:49,819 +0530 [main] DEBUG (TwoPhaseLoad.java:342) - Done materializing entity [com.createiq.demo.Employee#1002]
+  2022-04-08 21:04:49,821 +0530 [main] DEBUG (AbstractLoadPlanBasedEntityLoader.java:219) - Done entity load : com.createiq.demo.Employee#1002
+  2022-04-08 21:04:49,822 +0530 [main] DEBUG (FetchTest.java:33) - sucessfully stored to file and available in consolecom.createiq.demo.Employee@32ea16b7
+  2022-04-08 21:04:49,829 +0530 [main] DEBUG (LogicalConnectionManagedImpl.java:159) - Initiating JDBC connection release from afterTransaction
+  

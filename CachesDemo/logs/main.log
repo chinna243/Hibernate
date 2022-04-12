@@ -1,0 +1,3 @@
+2022-04-08 21:04:49,901 +0530 [main] DEBUG (SessionImpl.java:982) - Initializing proxy: [com.createiq.demo.Employee#1002]
+  2022-04-08 21:05:15,964 +0530 [Hibernate Connection Pool Validation Thread] DEBUG (DriverManagerConnectionProviderImpl.java:259) - Connection pool now considered primed; min-size will be maintained
+  

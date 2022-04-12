@@ -1,0 +1,20 @@
+2022-04-08 21:04:48,468 +0530 [main] DEBUG (AbstractEntityPersister.java:3855) -  Snapshot select: /* get current state com.createiq.demo.Employee */ select employee_.eid, employee_.ename as ename2_0_, employee_.esal as esal3_0_ from employee_tab employee_ where employee_.eid=?
+  2022-04-08 21:04:48,469 +0530 [main] DEBUG (DelegatingBasicLogger.java:394) -  Insert 0: /* insert com.createiq.demo.Employee */ insert into employee_tab (ename, esal, eid) values (?, ?, ?)
+  2022-04-08 21:04:48,469 +0530 [main] DEBUG (DelegatingBasicLogger.java:394) -  Update 0: /* update com.createiq.demo.Employee */ update employee_tab set ename=?, esal=? where eid=?
+  2022-04-08 21:04:48,470 +0530 [main] DEBUG (DelegatingBasicLogger.java:394) -  Delete 0: /* delete com.createiq.demo.Employee */ delete from employee_tab where eid=?
+  2022-04-08 21:04:48,515 +0530 [main] DEBUG (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@581b1c08]
+  2022-04-08 21:04:48,518 +0530 [main] DEBUG (MetamodelGraphWalker.java:146) - Visiting attribute path : ename
+  2022-04-08 21:04:48,520 +0530 [main] DEBUG (MetamodelGraphWalker.java:146) - Visiting attribute path : esal
+  2022-04-08 21:04:48,520 +0530 [main] DEBUG (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+  2022-04-08 21:04:48,542 +0530 [main] DEBUG (LoadQueryJoinAndFetchProcessor.java:102) - processing queryspace <gen:0>
+  2022-04-08 21:04:48,549 +0530 [main] DEBUG (LoadPlanTreePrinter.java:55) - LoadPlan(entity=com.createiq.demo.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.createiq.demo.Employee, querySpaceUid=<gen:0>, path=com.createiq.demo.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.createiq.demo.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {eid1_0_0_}
+
+  2022-04-08 21:04:48,558 +0530 [main] DEBUG (EntityLoader.java:137) - Static select for entity com.createiq.demo.Employee [NONE]: select employee0_.eid as eid1_0_0_, employee0_.ename as ename2_0_0_, employee0_.esal as esal3_0_0_ from employee_tab employee0_ where employee0_.eid=?
+  

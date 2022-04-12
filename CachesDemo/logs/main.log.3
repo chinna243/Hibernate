@@ -1,0 +1,18 @@
+2022-04-08 21:04:48,584 +0530 [main] DEBUG (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6367a688]
+  2022-04-08 21:04:48,584 +0530 [main] DEBUG (MetamodelGraphWalker.java:146) - Visiting attribute path : ename
+  2022-04-08 21:04:48,584 +0530 [main] DEBUG (MetamodelGraphWalker.java:146) - Visiting attribute path : esal
+  2022-04-08 21:04:48,585 +0530 [main] DEBUG (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+  2022-04-08 21:04:48,585 +0530 [main] DEBUG (LoadQueryJoinAndFetchProcessor.java:102) - processing queryspace <gen:0>
+  2022-04-08 21:04:48,586 +0530 [main] DEBUG (LoadPlanTreePrinter.java:55) - LoadPlan(entity=com.createiq.demo.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.createiq.demo.Employee, querySpaceUid=<gen:0>, path=com.createiq.demo.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.createiq.demo.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {eid1_0_0_}
+
+  2022-04-08 21:04:48,587 +0530 [main] DEBUG (EntityLoader.java:137) - Static select for entity com.createiq.demo.Employee [READ]: select employee0_.eid as eid1_0_0_, employee0_.ename as ename2_0_0_, employee0_.esal as esal3_0_0_ from employee_tab employee0_ where employee0_.eid=?
+  2022-04-08 21:04:48,611 +0530 [main] DEBUG (CascadeEntityLoader.java:38) - Static select for action ACTION_MERGE on entity com.createiq.demo.Employee: /* load com.createiq.demo.Employee */ select employee0_.eid as eid1_0_0_, employee0_.ename as ename2_0_0_, employee0_.esal as esal3_0_0_ from employee_tab employee0_ where employee0_.eid=?
+  2022-04-08 21:04:48,613 +0530 [main] DEBUG (CascadeEntityLoader.java:38) - Static select for action ACTION_REFRESH on entity com.createiq.demo.Employee: /* load com.createiq.demo.Employee */ select employee0_.eid as eid1_0_0_, employee0_.ename as ename2_0_0_, employee0_.esal as esal3_0_0_ from employee_tab employee0_ where employee0_.eid=?
+  
